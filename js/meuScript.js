@@ -9,11 +9,11 @@ window.addEventListener('scroll', () => {
   // Verifica se o usuário rolou a página além do topo do menu principal
   if (window.scrollY > menuPrincipal.offsetTop) {
     // Mostra o menu secundário e oculta o menu principal
-    menuSecundario.style.display = 'block';
+    menuSecundario.style.display = 'flex';
     menuPrincipal.style.display = 'none';
   } else {
     // Mostra o menu principal e oculta o menu secundário
-    menuPrincipal.style.display = 'block';
+    menuPrincipal.style.display = 'flex';
     menuSecundario.style.display = 'none';
   }
 });
